@@ -1,0 +1,174 @@
+@font-face {
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    font-family: "BPG Nino Mtavruli";
+    src: url("../font/bpg_nino_mtavruli_normal.ttf") format("ttf"),
+    url("../font/bpg_nino_mtavruli_normal.ttf") format("truetype");
+}
+
+html {
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 130px;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper-history {
+    padding: 73px  0;
+    display: flex;
+    background: #EBEBF0;
+    justify-content: center;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+}
+
+.wrapper-contact {
+    display: flex;
+    justify-content: center;
+    padding: 78px 0 94px 0;
+    background: #EBEBF0;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    padding-left: 121px;
+}
+
+.link {
+    text-decoration: none;
+    color: #2414db;
+}
+
+.link-active {
+    color: #f50808;
+}
+
+.bg-hero,
+.bg-about,
+.bg-contact {
+    margin: 0 auto 120px;
+}
+
+.main-title {
+    margin-bottom: 24px;
+    color: #17326e;
+    font-size: 36px;
+}
+
+.about-title {
+    color: #19126B;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+.description {
+    color: #090346;
+    margin-bottom: 120px;
+}
+
+.description-history {
+    width: 740px;
+}
+
+.our-history {
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+}
+
+.gallery {
+    padding: 120px 0;
+    background: #EBEBF0;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-container {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-title {
+    color: #19126B;
+    font-family: 'BPG Nino Mtavruli', sans-serif;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+.contact-item {
+    color: #0D69A9;
+    font-family: 'BPG Nino Mtavruli', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 11px;
+}
+
+.contact-item-info {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    background: #19126b;
+    padding: 50px 130px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side {
+    display: flex;
+}
+
+.social-link {
+    padding-right: 20px;
+}
+
+.right-side {
+    color: #fff;
+    font-size: 16px;
+}
